@@ -9,6 +9,7 @@ class App < Sinatra::Base
     # puts params
     original_string = params["string"]
     reversed_string = original_string.reverse
+    
     erb :reversed
   end
 
